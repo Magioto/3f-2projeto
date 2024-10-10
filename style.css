@@ -60,6 +60,9 @@ footer{
     text-align: center;
 }
 .graficos-container{
+    margin: 5rem;
+}
+.graficos-texto{
     font-size: 1.3rem;
     text-align: center;
     padding: 2rem;
