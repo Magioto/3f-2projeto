@@ -14,9 +14,9 @@ async function visualizaDadosGlobais(){
     paragrafo.classList.add('graficos-texto')
     //*cria uma classe 'graficos-texto' na tag 'p'
     const container = document.getElementById('graficos-container')
-    paragrafo.innerHTML = `O mundo tem <span> ${totalPessoasMundo} bilhões <span/> 
-    de habitantes, dos quais <span> ${totalPessoasConectadas} bilhões <span/>
-    estão conectadas em alguma rede social por um tempo médio de <span> ${tempoMedio}<span/>`
+    paragrafo.innerHTML = `O mundo tem <span> ${totalPessoasMundo} bilhões </span>
+    de habitantes, dos quais <span> ${totalPessoasConectadas} bilhões </span>
+    estão conectadas em alguma rede social por um tempo médio de <span>${tempoMedio} Horas </span>`
     container.appendChild(paragrafo);
 }
 
